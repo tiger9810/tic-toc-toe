@@ -10,6 +10,7 @@ root.render(
     <App />
   </StrictMode>
 )
+
 root.render(
   <StrictMode>
     <App />

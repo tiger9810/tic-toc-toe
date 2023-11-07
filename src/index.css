@@ -11,3 +11,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.row {
+  background-color: #111; /* ダークな背景 */
+  text-align: center;
+  padding: 20px;
+}
+
+.square {
+  background-color: #111;
+  color: #0F0; /* Matrixの緑色 */
+  border: 1px solid #0F0; /* 緑色の境界線 */
+  box-shadow: 0 0 10px #0F0; /* 緑のネオンシャドウ */
+  font-family: 'Courier New', monospace; /* モノスペースフォント */
+  font-size: 2rem; /* 大きめのフォントサイズ */
+  margin: 0 5px; /* ボタン間の余白 */
+  padding: 10px 20px; /* パディング */
+  transition: all 0.5s; /* トランジション効果 */
+}
+
+.square:hover {
+  background-color: #222; /* ホバー時の背景色変更 */
+  box-shadow: 0 0 20px #0F0, 0 0 40px #0F0; /* ホバー時のシャドウを強調 */
+  transform: translateY(-5px); /* ホバー時に浮き上がる効果 */
+}
